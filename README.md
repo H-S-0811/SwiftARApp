@@ -1,12 +1,14 @@
 # SwiftARApp
-This application can create dioramas and show 3D objects.
+鉄道玩具にARでジオラマを追加することを目的としたアプリケーション
 
-# Description
-This application is 
+# 説明
 
-# Usage
 
-# Requirement
+# 使用方法
+起動後、モード選択画面が表示されます。この画面で
+
+
+
 
 
 
