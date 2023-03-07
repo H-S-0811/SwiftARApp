@@ -129,16 +129,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
             let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped))
             tapGestureRecognizer.numberOfTapsRequired = 1
             self.arView.addGestureRecognizer(tapGestureRecognizer)
-        
-            /*arView.addGestureRecognizer(UIPanGestureRecognizer(
-                    target: self, action: #selector(self.dragView(sender:))))*/
-           /* let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(doubletap))
-            tapRecognizer.numberOfTapsRequired = 2
-            self.arView.addGestureRecognizer(tapRecognizer)
-            
-            
-            
-              tapGestureRecognizer.require(toFail: tapRecognizer)*/
             
                        
         
@@ -245,7 +235,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         }
     }
      if condition == 0{
-        //var sta = sender.state
          st = sender.state.rawValue
         print("編集")
         if sender.state == .began {
@@ -275,8 +264,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         {
             Label()
             // アセットのより、シーンを作成
-            let scene = SCNScene(named: "Models.scnassets/\(contentsArray[appDelegate.Main]).scn")
-
+            let scene = SCNScene(named: "\(contentsArray[appDelegate.Main]).scn")
             // ノード作成
             let node = (scene?.rootNode.childNode(withName:contentsArray[appDelegate.Main] , recursively: true))!
 
@@ -421,6 +409,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
          
     
 /*
+ スライドで位置調整できるよう調整中
     @objc func dragView(sender: UIGestureRecognizer) {
         if condition == 0{
             
