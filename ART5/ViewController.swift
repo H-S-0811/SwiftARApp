@@ -265,6 +265,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
             Label()
             // アセットのより、シーンを作成
             let scene = SCNScene(named: "\(contentsArray[appDelegate.Main]).scn")
+            
             // ノード作成
             let node = (scene?.rootNode.childNode(withName:contentsArray[appDelegate.Main] , recursively: true))!
 

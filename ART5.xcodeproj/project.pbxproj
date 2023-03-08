@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		863D61FB29AF1A49008FE3CA /* building.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D61FA29AF1A49008FE3CA /* building.scn */; };
-		863D61FD29AF1A52008FE3CA /* car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D61FC29AF1A52008FE3CA /* car.scn */; };
-		863D61FF29AF1A5B008FE3CA /* car2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D61FE29AF1A5B008FE3CA /* car2.scn */; };
-		863D620129AF1A61008FE3CA /* crode.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D620029AF1A61008FE3CA /* crode.scn */; };
-		863D620329AF1A63008FE3CA /* cross.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D620229AF1A63008FE3CA /* cross.scn */; };
-		863D620529AF1A67008FE3CA /* eki.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D620429AF1A67008FE3CA /* eki.scn */; };
-		863D620729AF1A68008FE3CA /* road.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D620629AF1A68008FE3CA /* road.scn */; };
-		863D620929AF1A6B008FE3CA /* tunnel.scn in Resources */ = {isa = PBXBuildFile; fileRef = 863D620829AF1A6B008FE3CA /* tunnel.scn */; };
+		866379B129B6DA4900B7B6BE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF6D24A5787500FE3331 /* art.scnassets */; };
 		8677CF6C24A5787500FE3331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8677CF6B24A5787500FE3331 /* AppDelegate.swift */; };
-		8677CF6E24A5787500FE3331 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF6D24A5787500FE3331 /* art.scnassets */; };
 		8677CF7024A5787500FE3331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8677CF6F24A5787500FE3331 /* ViewController.swift */; };
 		8677CF7324A5787500FE3331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF7124A5787500FE3331 /* Main.storyboard */; };
 		8677CF7524A5787A00FE3331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8677CF7424A5787A00FE3331 /* Assets.xcassets */; };
@@ -31,21 +23,20 @@
 		8677CFFF24B4377700FE3331 /* road.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8677CFFE24B4377700FE3331 /* road.usdz */; };
 		8677D00124B4378300FE3331 /* eki.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8677D00024B4378300FE3331 /* eki.usdz */; };
 		8677D00224B8DADF00FE3331 /* ContentsCollectionViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8677CFD924B2135600FE3331 /* ContentsCollectionViewCell.swift */; };
-		8677D00424BB67E200FE3331 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8677D00324BB67E200FE3331 /* Models.scnassets */; };
 		8697104324BC3D4A00CA497A /* building.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8697104224BC3D4A00CA497A /* building.usdz */; };
 		8697104924BC3EC200CA497A /* car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8697104824BC3EC200CA497A /* car.usdz */; };
+		86E98E5B29B8C8C3008C3BB5 /* building.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5629B8C82F008C3BB5 /* building.scn */; };
+		86E98E5C29B8C8C3008C3BB5 /* car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5829B8C82F008C3BB5 /* car.scn */; };
+		86E98E5D29B8C8C3008C3BB5 /* car2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5429B8C82F008C3BB5 /* car2.scn */; };
+		86E98E5E29B8C8C3008C3BB5 /* cross.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5929B8C82F008C3BB5 /* cross.scn */; };
+		86E98E5F29B8C8C3008C3BB5 /* eki.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5729B8C82F008C3BB5 /* eki.scn */; };
+		86E98E6029B8C8C3008C3BB5 /* road.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5329B8C82F008C3BB5 /* road.scn */; };
+		86E98E6129B8C8C3008C3BB5 /* tunnel.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E5529B8C82F008C3BB5 /* tunnel.scn */; };
+		86E98E6329B8C92D008C3BB5 /* crode.scn in Resources */ = {isa = PBXBuildFile; fileRef = 86E98E6229B8C92D008C3BB5 /* crode.scn */; };
 		86F1780124BCB66B00E507A4 /* cross.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 86F1780024BCB66B00E507A4 /* cross.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		863D61FA29AF1A49008FE3CA /* building.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = building.scn; sourceTree = "<group>"; };
-		863D61FC29AF1A52008FE3CA /* car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = car.scn; path = ART5/Models.scnassets/car.scn; sourceTree = "<group>"; };
-		863D61FE29AF1A5B008FE3CA /* car2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car2.scn; sourceTree = "<group>"; };
-		863D620029AF1A61008FE3CA /* crode.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = crode.scn; sourceTree = "<group>"; };
-		863D620229AF1A63008FE3CA /* cross.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cross.scn; sourceTree = "<group>"; };
-		863D620429AF1A67008FE3CA /* eki.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = eki.scn; sourceTree = "<group>"; };
-		863D620629AF1A68008FE3CA /* road.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = road.scn; sourceTree = "<group>"; };
-		863D620829AF1A6B008FE3CA /* tunnel.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tunnel.scn; sourceTree = "<group>"; };
 		8677CF6824A5787500FE3331 /* ART5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ART5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8677CF6B24A5787500FE3331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8677CF6D24A5787500FE3331 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -63,9 +54,16 @@
 		8677CFFC24B4376B00FE3331 /* crode.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = crode.usdz; sourceTree = "<group>"; };
 		8677CFFE24B4377700FE3331 /* road.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = road.usdz; sourceTree = "<group>"; };
 		8677D00024B4378300FE3331 /* eki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = eki.usdz; sourceTree = "<group>"; };
-		8677D00324BB67E200FE3331 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		8697104224BC3D4A00CA497A /* building.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = building.usdz; sourceTree = "<group>"; };
 		8697104824BC3EC200CA497A /* car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = car.usdz; path = ART5/art.scnassets/car.usdz; sourceTree = SOURCE_ROOT; };
+		86E98E5329B8C82F008C3BB5 /* road.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = road.scn; sourceTree = "<group>"; };
+		86E98E5429B8C82F008C3BB5 /* car2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car2.scn; sourceTree = "<group>"; };
+		86E98E5529B8C82F008C3BB5 /* tunnel.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tunnel.scn; sourceTree = "<group>"; };
+		86E98E5629B8C82F008C3BB5 /* building.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = building.scn; sourceTree = "<group>"; };
+		86E98E5729B8C82F008C3BB5 /* eki.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = eki.scn; sourceTree = "<group>"; };
+		86E98E5829B8C82F008C3BB5 /* car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car.scn; sourceTree = "<group>"; };
+		86E98E5929B8C82F008C3BB5 /* cross.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cross.scn; sourceTree = "<group>"; };
+		86E98E6229B8C92D008C3BB5 /* crode.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = crode.scn; sourceTree = "<group>"; };
 		86F1780024BCB66B00E507A4 /* cross.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cross.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,14 +81,6 @@
 		8677CF5F24A5787500FE3331 = {
 			isa = PBXGroup;
 			children = (
-				863D620829AF1A6B008FE3CA /* tunnel.scn */,
-				863D620629AF1A68008FE3CA /* road.scn */,
-				863D620429AF1A67008FE3CA /* eki.scn */,
-				863D620229AF1A63008FE3CA /* cross.scn */,
-				863D620029AF1A61008FE3CA /* crode.scn */,
-				863D61FE29AF1A5B008FE3CA /* car2.scn */,
-				863D61FC29AF1A52008FE3CA /* car.scn */,
-				863D61FA29AF1A49008FE3CA /* building.scn */,
 				8677CF6A24A5787500FE3331 /* ART5 */,
 				8677CF6924A5787500FE3331 /* Products */,
 			);
@@ -112,7 +102,7 @@
 				8677CF7F24A89D4700FE3331 /* SettingController.swift */,
 				8677CFE124B2157500FE3331 /* ARController.swift */,
 				8677CFEE24B2E66C00FE3331 /* StartController.swift */,
-				8677D00324BB67E200FE3331 /* Models.scnassets */,
+				86E98E5A29B8C840008C3BB5 /* Models.scnassets */,
 				8677CF6D24A5787500FE3331 /* art.scnassets */,
 				8677CFE824B2376800FE3331 /* usdzdata */,
 				8677CF7624A5787A00FE3331 /* LaunchScreen.storyboard */,
@@ -137,6 +127,21 @@
 				8677CFF824B4376200FE3331 /* tunnel.usdz */,
 			);
 			path = usdzdata;
+			sourceTree = "<group>";
+		};
+		86E98E5A29B8C840008C3BB5 /* Models.scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				86E98E5629B8C82F008C3BB5 /* building.scn */,
+				86E98E5829B8C82F008C3BB5 /* car.scn */,
+				86E98E5429B8C82F008C3BB5 /* car2.scn */,
+				86E98E5929B8C82F008C3BB5 /* cross.scn */,
+				86E98E5729B8C82F008C3BB5 /* eki.scn */,
+				86E98E5329B8C82F008C3BB5 /* road.scn */,
+				86E98E6229B8C92D008C3BB5 /* crode.scn */,
+				86E98E5529B8C82F008C3BB5 /* tunnel.scn */,
+			);
+			path = Models.scnassets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,21 +202,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E98E5B29B8C8C3008C3BB5 /* building.scn in Resources */,
+				86E98E5C29B8C8C3008C3BB5 /* car.scn in Resources */,
+				86E98E5D29B8C8C3008C3BB5 /* car2.scn in Resources */,
+				86E98E5E29B8C8C3008C3BB5 /* cross.scn in Resources */,
+				86E98E5F29B8C8C3008C3BB5 /* eki.scn in Resources */,
+				86E98E6029B8C8C3008C3BB5 /* road.scn in Resources */,
+				86E98E6129B8C8C3008C3BB5 /* tunnel.scn in Resources */,
+				86E98E6329B8C92D008C3BB5 /* crode.scn in Resources */,
+				866379B129B6DA4900B7B6BE /* art.scnassets in Resources */,
 				8697104324BC3D4A00CA497A /* building.usdz in Resources */,
 				8677D00224B8DADF00FE3331 /* ContentsCollectionViewCell.swift in Resources */,
 				8677CFDC24B2135C00FE3331 /* ContentsCollectionViewCell.xib in Resources */,
 				8677CFF924B4376200FE3331 /* tunnel.usdz in Resources */,
-				863D61FB29AF1A49008FE3CA /* building.scn in Resources */,
-				863D620729AF1A68008FE3CA /* road.scn in Resources */,
-				863D620929AF1A6B008FE3CA /* tunnel.scn in Resources */,
-				863D620129AF1A61008FE3CA /* crode.scn in Resources */,
-				863D620529AF1A67008FE3CA /* eki.scn in Resources */,
-				863D620329AF1A63008FE3CA /* cross.scn in Resources */,
-				863D61FD29AF1A52008FE3CA /* car.scn in Resources */,
-				863D61FF29AF1A5B008FE3CA /* car2.scn in Resources */,
-				8677CF6E24A5787500FE3331 /* art.scnassets in Resources */,
 				86F1780124BCB66B00E507A4 /* cross.usdz in Resources */,
-				8677D00424BB67E200FE3331 /* Models.scnassets in Resources */,
 				8677CFFF24B4377700FE3331 /* road.usdz in Resources */,
 				8677CFFD24B4376B00FE3331 /* crode.usdz in Resources */,
 				8677CF7824A5787A00FE3331 /* LaunchScreen.storyboard in Resources */,
